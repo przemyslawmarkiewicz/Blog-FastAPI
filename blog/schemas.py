@@ -12,10 +12,15 @@ class Blog(BlogBase):
         orm_mode = True
 
 
-class User(BaseModel):
+class UserBase(BaseModel):
     name: str
     email: str
     password: str
+
+
+class User(UserBase):
+    class Config:
+        orm_mode = True
 
 
 class ShowUser(BaseModel):
@@ -30,7 +35,7 @@ class ShowUser(BaseModel):
 class ShowBlog(BaseModel):
     title: str
     body: str
-    creator: ShowUser
+    creator: User
 
     class Config:
         orm_mode = True
