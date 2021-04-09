@@ -3,3 +3,5 @@ blog/__pycache__
 .DS_STORE
 .vscode/
 blog-env
+app/.deta
+app/blog/__pycache__
