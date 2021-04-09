@@ -1,7 +1,6 @@
 from datetime import datetime, timedelta
 from jose import JWTError, jwt
 from typing import Optional
-from sqlalchemy.orm import Session
 from . import schemas, models
 
 
