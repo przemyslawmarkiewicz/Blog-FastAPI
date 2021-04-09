@@ -5,4 +5,4 @@ To launch application locally:
 - run server with `uvicorn main:app --reload`
 
 Link to deployed app:
-[blog-api](https://ppb6x4.deta.dev/docs)
+[blog-api](https://xpputg.deta.dev/docs)
